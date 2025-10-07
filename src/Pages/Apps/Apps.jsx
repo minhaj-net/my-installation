@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import useApp from "../../Hooks/useCard";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
 import { Link } from "react-router";
 
 const Apps = () => {
+  const [search, setSearch] = useState("");
   const data = useApp();
   const cardData = data.apps;
+  const term = search.trim().toLocaleLowerCase();
+  const searchCard = term
+    ? cardData.filter((searchCard) =>
+        searchCard.companyName.toLocaleLowerCase().includes(term)
+      )
+    : cardData;
+
+  console.log(searchCard);
 
   return (
     <div>
@@ -21,15 +30,20 @@ const Apps = () => {
       <div>
         <div className="flex justify-between items-center mb-4">
           <h3 className="text-[#001931] font-semibold text-2xl">
-            ({cardData.length}) Apps Found
+            ({searchCard.length}) Apps Found
           </h3>
           <lebel className="input ">
-            <input type="search" placeholder="Search Your App" />
+            <input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              type="search"
+              placeholder="Search Your App"
+            />
           </lebel>
         </div>
       </div>
       <div className="grid grid-cols-1 justify-center items-center  md:grid-cols-4 ">
-        {cardData.map((app) => (
+        {searchCard.map((app) => (
           <Link to={`/card/${app.id}`}>
             <div className="card bg-base-100  shadow-sm">
               <figure className=" object-cover">

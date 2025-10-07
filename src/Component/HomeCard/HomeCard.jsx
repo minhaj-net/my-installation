@@ -5,7 +5,7 @@ import ratingIcon from "../../assets/icon-ratings.png";
 import { Link } from "react-router";
 
 const HomeCard = () => {
-  const { apps, loading, error } = useApp();
+  const { apps } = useApp();
   const featuredApp = apps.slice(0, 8);
 
   return (

@@ -4,37 +4,25 @@ import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
 import { Link } from "react-router";
 
-const Apps = () => {
-  const data = useApp();
-  const cardData = data.apps;
+const HomeCard = () => {
+  const { apps, loading, error } = useApp();
+  const featuredApp = apps.slice(0, 8);
 
   return (
     <div>
-      <div className="space-y-2 text-center pt-6 md:p-0 p-2 mb-4">
-        <h3 className="text-[##001931] font-medium md:font-bold text-2xl md:text-5xl">
-          Our All Applications
-        </h3>
-        <p className="text-[#627382] text-xl">
-          Explore All Apps on the Market developed by us. We code for Millions
+      <div className="text-center mb-8 space-y-2 mt-8">
+        <h3 className="text-[#001931]  font-bold text-4xl">Trending Apps</h3>
+        <p className="text-gray-500">
+          Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div>
-        <div className="flex justify-between items-center mb-4">
-          <h3 className="text-[#001931] font-semibold text-2xl">
-            ({cardData.length}) Apps Found
-          </h3>
-          <lebel className="input ">
-            <input type="search" placeholder="Search Your App" />
-          </lebel>
-        </div>
-      </div>
-      <div className="grid grid-cols-1 justify-center items-center  md:grid-cols-4 ">
-        {cardData.map((app) => (
+      <div className="grid grid-cols-1 justify-center items-center mx-auto text-center  md:grid-cols-4 ">
+        {featuredApp.map((app) => (
           <Link to={`/card/${app.id}`}>
             <div className="card bg-base-100  shadow-sm">
-              <figure className=" object-cover">
+              <figure className="">
                 <img
-                  className="w-[300px] h-[326px]  overflow-hidden rounded-xl"
+                  className="w-[300px] h-[326px] object-cover rounded-xl"
                   src={app.image}
                   alt="Shoes"
                 />
@@ -62,4 +50,4 @@ const Apps = () => {
   );
 };
 
-export default Apps;
+export default HomeCard;

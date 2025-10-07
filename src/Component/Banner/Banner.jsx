@@ -46,7 +46,7 @@ const Banner = () => {
         <h2 className="text-center mb-3 text-white font-bold text-3xl line leading-12">
           Trusted by Millions, Built for You
         </h2>
-        <div className=" flex justify-between items-center md:max-w-[700px] mx-auto">
+        <div className=" md:flex justify-between items-center md:max-w-[700px] mx-auto">
           <div className="space-y-3 flex flex-col justify-center items-center">
             <p className="text-[12px] text-gray-400">Total Downloads</p>
             <h3 className="font-bold text-5xl text-white">29.6M</h3>

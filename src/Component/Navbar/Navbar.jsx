@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import logoImg from "../../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
 
@@ -33,7 +33,7 @@ const Navbar = () => {
               <NavLink>Home</NavLink>
             </li>
             <li>
-              <NavLink>Apps</NavLink>
+              <NavLink to="/apps">Apps</NavLink>
             </li>
             <li>
               <NavLink>Installation</NavLink>
@@ -42,16 +42,18 @@ const Navbar = () => {
         </div>
         <div className="flex gap-2 justify-center items-center">
           <img className="w-[40px] h-[40px]" src={logoImg} alt="" />
-          <h3 className="text-xl">HERO.IO</h3>
+          <Link to="/">
+            <h3 className="text-xl">HERO.IO</h3>
+          </Link>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <NavLink>Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink>Apps</NavLink>
+            <NavLink to="/apps">Apps</NavLink>
           </li>
           <li>
             <NavLink>Installation</NavLink>

@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://i.ibb.co.com/9mCWM6gw/51e70a73784b09c974c8b62631e01a45.jpg",
+    "title": "PhotoMaster",
+    "companyName": "PixelWorks Ltd.",
+    "id": 1,
+    "description": "PhotoMaster is a powerful photo editing app. It allows users to enhance images with filters and effects. You can adjust brightness, contrast, and saturation. It also supports layer editing for advanced users. The app has an intuitive interface for beginners. You can crop, rotate, and resize images easily. AI-powered features help improve image quality automatically. Users can share photos directly to social media. It supports high-resolution exports. Frequent updates introduce new tools and effects.",
+    "size": 85,
+    "reviews": 30,
+    "ratingAvg": 4.6,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 123 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 430 },
+      { "name": "4 star", "count": 812 },
+      { "name": "5 star", "count": 856 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MkFYm7gn/f003aa51f744322d4df01547c3343cd6.jpg",
+    "title": "FitTrack",
+    "companyName": "WellnessPro",
+    "id": 2,
+    "description": "FitTrack helps you monitor your workouts. It tracks calories burned and progress over time. Users can set fitness goals and reminders. The app provides personalized workout plans. It integrates with wearables and smart devices. You can log meals and water intake easily. Progress charts help you visualize achievements. Community challenges keep motivation high. In-app tips guide proper exercise techniques. Regular updates improve features and reliability.",
+    "size": 60,
+    "reviews": 40,
+    "ratingAvg": 4.2,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 520 },
+      { "name": "4 star", "count": 920 },
+      { "name": "5 star", "count": 1160 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pq7rv7h/e0645fc6bdb02960e624f08d35c5840d.jpg",
+    "title": "TaskMate",
+    "companyName": "Organix Studios",
+    "id": 3,
+    "description": "TaskMate is designed to organize your daily tasks. You can create, edit, and delete tasks easily. It supports reminders and notifications. Tasks can be categorized by project or priority. You can track task completion history. The interface is simple and user-friendly. It allows cloud sync for multiple devices. Collaboration features enable sharing tasks with teams. Analytics show productivity patterns. Regular updates improve performance and features.",
+    "size": 45,
+    "reviews": 50,
+    "ratingAvg": 4.0,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HDjgq1X1/dd28e3323509d4c270e90b52f0b8c9fc.jpg",
+    "title": "Learnify",
+    "companyName": "EduTech Labs",
+    "id": 4,
+    "description": "Learnify provides interactive learning content. Users can access courses and video lectures. Quizzes help track knowledge retention. Progress is monitored with detailed analytics. Certificates are available after course completion. The app supports offline learning. Discussion forums allow interaction with peers. Personalized recommendations suggest relevant courses. Notifications keep learners informed about updates. Regular content updates enhance learning opportunities.",
+    "size": 120,
+    "reviews": 60,
+    "ratingAvg": 4.8,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 740 },
+      { "name": "5 star", "count": 4400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1thGV9X4/4e2497394bc9091a449f20cb0705c905.jpg",
+    "title": "SoundBeats",
+    "companyName": "WaveMedia Inc.",
+    "id": 5,
+    "description": "SoundBeats is a music player app. It supports multiple audio formats. You can create and manage playlists. Equalizer settings allow audio customization. Offline playback is available. Users can download songs for free. Sharing music with friends is easy. Themes can be customized. The app includes sleep and alarm timers. Regular updates improve audio quality and features.",
+    "size": 95,
+    "reviews": 70,
+    "ratingAvg": 4.3,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 1030 },
+      { "name": "5 star", "count": 1295 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RFzcddJ/313faec8221bbdb30391cee3fa146f2e.jpg",
+    "title": "TravelNow",
+    "companyName": "GlobeTrek Ltd.",
+    "id": 6,
+    "description": "TravelNow helps you book flights and hotels. It offers exclusive discounts. Users can search by location or price. Trip itineraries are easy to manage. Maps and directions are included. You can read and write reviews. Travel alerts keep you informed. Recommendations are personalized. You can save favorite destinations. Regular updates add more booking options.",
+    "size": 110,
+    "reviews": 80,
+    "ratingAvg": 4.5,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 520 },
+      { "name": "4 star", "count": 980 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LD1ML7y8/ce76dbd6f3670054957db1d0d2e3d8fe.jpg",
+    "title": "NoteWise",
+    "companyName": "MindSync",
+    "id": 7,
+    "description": "NoteWise is a note-taking app. It supports cloud synchronization. Notes can include images and audio. Users can organize notes into folders. Collaboration features allow sharing with others. You can set reminders for notes. Password protection is available for privacy. Search and tagging make finding notes easy. Templates help speed up note creation. Frequent updates improve usability and features.",
+    "size": 70,
+    "reviews": 90,
+    "ratingAvg": 4.4,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 890 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wrQM7PzZ/4e091155a59d3547486e33358aa488a9.jpg",
+    "title": "GameHub",
+    "companyName": "Playverse Studios",
+    "id": 8,
+    "description": "GameHub is a platform for trending games. Users can view updates and news. Community events keep gamers engaged. In-app purchases are available. Leaderboards encourage competition. Game reviews and ratings are included. Friends can be added to play together. Notifications alert new events. Tutorials help beginners learn quickly. Regular updates improve performance and add features.",
+    "size": 150,
+    "reviews": 95,
+    "ratingAvg": 4.7,
+    "downloads": 11,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 370 },
+      { "name": "3 star", "count": 680 },
+      { "name": "4 star", "count": 1140 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9k34nJ9J/957a13e97e2db07da3b7913f625c2eed.jpg",
+    "title": "PhotoForge",
+    "companyName": "PixelCraft Studios",
+    "id": 9,
+    "description": "PhotoForge offers advanced photo editing features for creative users. Apply filters, adjust brightness, and enhance colors. Layer management allows precise edits. Crop and resize images easily. AI tools auto-improve quality. Export in high resolution. Tutorials help beginners get started. Share images on social media seamlessly. Frequent updates introduce new tools. Intuitive interface makes navigation simple.",
+    "size": 88,
+    "reviews": 33,
+    "ratingAvg": 4.5,
+    "downloads": 2,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 390 },
+      { "name": "4 star", "count": 810 },
+      { "name": "5 star", "count": 860 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vC7rG1pv/1a88e3eb1e93d39c81dd9d451b7bd7ab.jpg",
+    "title": "FitJourney",
+    "companyName": "WellBeing Tech",
+    "id": 10,
+    "description": "FitJourney tracks your workouts and health metrics daily. Set fitness goals and monitor progress. Integrates with wearables for precise data. Track calories, steps, and activity levels. Personalized workouts help improve results. Community challenges increase motivation. Daily reminders keep you consistent. Visual charts track trends. Offline mode ensures continuous tracking. Updates regularly add new exercises.",
+    "size": 62,
+    "reviews": 42,
+    "ratingAvg": 4.3,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 510 },
+      { "name": "4 star", "count": 910 },
+      { "name": "5 star", "count": 1150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NnF7kVvw/9e1f677d42bc9d9ae1089671e3926c66.jpg",
+    "title": "TaskFlow",
+    "companyName": "OrganizeTech",
+    "id": 11,
+    "description": "TaskFlow helps manage projects and daily tasks effectively. Organize tasks by priority or project. Set reminders for deadlines. Track task completion trends. Cloud sync ensures access on all devices. Collaboration features allow team management. Dashboard shows overall progress. Offline support keeps data available. Dark mode improves usability. Regular updates introduce new features.",
+    "size": 50,
+    "reviews": 50,
+    "ratingAvg": 4.2,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qM45yY8b/1dc704027c948450fd52388d2859eefb.jpg",
+    "title": "LearnHub",
+    "companyName": "EduInnovate",
+    "id": 12,
+    "description": "LearnHub offers interactive courses across multiple subjects. Video lectures and quizzes improve understanding. Track progress and earn certificates. Offline mode supports learning anywhere. Join discussion forums for collaboration. Personalized recommendations enhance learning. Notifications keep learners updated. Gamification adds motivation. Regular updates expand content library. Interface is simple and user-friendly.",
+    "size": 125,
+    "reviews": 63,
+    "ratingAvg": 4.7,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 85 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BVZtkdZy/8cdc395aa79371f0f21dfa34eb3163a3.jpg",
+    "title": "SoundPulse",
+    "companyName": "WaveMedia Labs",
+    "id": 13,
+    "description": "SoundPulse provides immersive audio experience. Customize equalizer and playlists. Download songs for offline playback. Supports multiple audio formats. Share music with friends. Sleep timers and alarms included. Smart recommendations suggest new tracks. Lyrics display for every song. Updates improve app performance. Clean UI ensures smooth usage.",
+    "size": 92,
+    "reviews": 55,
+    "ratingAvg": 4.4,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 710 },
+      { "name": "4 star", "count": 1020 },
+      { "name": "5 star", "count": 1280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PzjxWGxy/03c406da3d055fe1cca6103cc8a285d4.jpg",
+    "title": "TravelQuest",
+    "companyName": "ExploreWorld",
+    "id": 14,
+    "description": "TravelQuest helps plan trips efficiently worldwide. Book flights, hotels, and activities easily. Offline maps aid navigation. Track expenses and itineraries. Personalized recommendations enhance experience. Read verified reviews. Real-time alerts keep travelers informed. Currency conversion tools included. Save favorite spots for quick access. Updates add new features continuously.",
+    "size": 108,
+    "reviews": 68,
+    "ratingAvg": 4.6,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/m5mYmqst/53875f5ab299229a1880dd4c2e7ad590.jpg",
+    "title": "NoteMaster Pro",
+    "companyName": "MindSync Labs",
+    "id": 15,
+    "description": "NoteMaster Pro helps organize notes professionally. Include text, images, audio, and PDFs. Cloud sync ensures data is always available. Set reminders for tasks. Tags and search improve accessibility. Password protection secures sensitive notes. Templates speed up note creation. Widgets provide quick access. Offline mode works reliably. Frequent updates improve functionality.",
+    "size": 72,
+    "reviews": 65,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/v4N4Px1q/7762e1c97e598afd508861cfbb82037f.jpg",
+    "title": "ShopSmart Plus",
+    "companyName": "RetailGenius",
+    "id": 16,
+    "description": "ShopSmart Plus helps users find the best deals online. Compare prices across multiple stores. Create wishlists for future shopping. Receive instant price drop alerts. Secure payment gateways supported. Track deliveries in real-time. Product reviews assist decision-making. Offline browsing supported. Smart recommendations suggest trending products. Regular updates improve app features.",
+    "size": 78,
+    "reviews": 52,
+    "ratingAvg": 4.5,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1Gpf5808/18443498f2fe7686cb29db8cb79b30dc.jpg",
+    "title": "MindEase Pro",
+    "companyName": "CalmWave Labs",
+    "id": 17,
+    "description": "MindEase Pro offers guided meditation and relaxation programs. Track daily progress and mood. Breathing exercises improve focus. Offline mode supports meditation anywhere. Personalized sessions adapt to user needs. Visual and sound enhancements improve experience. Expert-designed routines updated weekly. Notifications remind users for sessions. Progress reports provide insights. Frequent updates add new meditation tools.",
+    "size": 70,
+    "reviews": 59,
+    "ratingAvg": 4.7,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYgMxSxR/0a32efebf346cdf613ee7fe9cb2f87aa.jpg",
+    "title": "WeatherWise",
+    "companyName": "SkyTech Innovations",
+    "id": 18,
+    "description": "WeatherWise provides accurate weather forecasts globally. Hourly and weekly views are included. Real-time radar maps show movements. Notifications alert for rain or storms. Widgets allow quick updates. Customize themes for display. Track air quality in regions. Sunrise and sunset timings included. Offline mode stores last data. Updates improve prediction accuracy.",
+    "size": 60,
+    "reviews": 62,
+    "ratingAvg": 4.4,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 860 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tTdQv20S/d9758e5032343516eb517c8f7d46cea6.jpg",
+    "title": "TravelBuddy",
+    "companyName": "GlobeTrek Innovations",
+    "id": 19,
+    "description": "TravelBuddy makes trip planning simple and efficient. Book hotels and flights easily. Organize itineraries with clear guidance. Offline maps help navigation. Local attractions highlighted. Personalized recommendations enhance trips. Track expenses efficiently. Read user reviews. Notifications provide deals and updates. Regular updates improve functionality.",
+    "size": 105,
+    "reviews": 70,
+    "ratingAvg": 4.6,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8DvwXthk/25dc4a1638c4eac1adb69bad3b3d35cb.jpg",
+    "title": "NoteKeeper",
+    "companyName": "MindSync Apps",
+    "id": 20,
+    "description": "NoteKeeper allows secure note management across devices. Cloud sync keeps notes updated. Attach images, audio, and PDFs. Share notes with others easily. Set reminders for tasks. Tags and search improve organization. Templates speed up note-taking. Password protection ensures privacy. Widgets provide quick access. Regular updates improve functionality.",
+    "size": 70,
+    "reviews": 65,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gMq7wcQ4/4d3cc66b780e71167bf0d348091d9497.jpg",
+    "title": "GameZone",
+    "companyName": "Playverse Labs",
+    "id": 21,
+    "description": "GameZone features trending games and community events. Track leaderboards and participate in challenges. Tutorials guide beginners. Friends can join for multiplayer. In-app purchases are safe. Notifications alert about events. Offline mode available. Reviews improve discoverability. Daily updates add new games. Smooth interface ensures enjoyable gameplay.",
+    "size": 155,
+    "reviews": 68,
+    "ratingAvg": 4.7,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7xPxbJ4F/c818ea55f16074487933efea3113ee81.jpg",
+    "title": "CookMaster",
+    "companyName": "FoodieTech",
+    "id": 22,
+    "description": "CookMaster offers recipes from around the world. Step-by-step instructions with images. Save favorite recipes in collections. Meal planner organizes weekly menus. Nutritional information included. Share recipes with friends. Video tutorials improve cooking skills. Offline access available. Ingredient substitutes suggested. Regular updates add new recipes.",
+    "size": 95,
+    "reviews": 55,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DHqv3pQx/b2108d5d3bdb7a37747672a8382d3d20.jpg",
+    "title": "FinanceTrack",
+    "companyName": "MoneyWise Solutions",
+    "id": 23,
+    "description": "FinanceTrack manages budgets and expenses easily. Track income and bills. Generate monthly reports. Set savings goals and alerts. Categorize spending for insights. Offline mode stores data safely. Visual charts track financial progress. Secure password protection included. Export reports to CSV. Regular updates improve features.",
+    "size": 80,
+    "reviews": 60,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hxkFdwVx/b0d2ade16bf361d0cf23bf2372570b49.jpg",
+    "title": "PhotoBlend",
+    "companyName": "PixelCraft Studios",
+    "id": 24,
+    "description": "PhotoBlend allows creative image blending easily. Multiple layers supported. Crop, rotate, and resize images. Apply filters and effects. Export high-quality photos. Tutorials guide beginners. Share creations on social media. Regular updates add features. Intuitive interface for smooth editing. Offline mode available.",
+    "size": 90,
+    "reviews": 45,
+    "ratingAvg": 4.4,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SXmjc9N8/c1be85c7a8c9a99918e891c47dc7de33.jpg",
+    "title": "MeditateNow",
+    "companyName": "CalmWave Labs",
+    "id": 25,
+    "description": "MeditateNow provides guided meditation sessions daily. Breathing exercises improve focus. Track progress over time. Personalized routines adapt to user needs. Offline mode supported. Notifications remind users. Visuals and audio enhance experience. Expert-designed sessions. Progress analytics included. Frequent updates add new meditations.",
+    "size": 65,
+    "reviews": 58,
+    "ratingAvg": 4.7,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KcsqzRHv/99694007eb4d973169c34166a7974e3a.jpg",
+    "title": "WeatherTrack",
+    "companyName": "SkyTech ",
+    "id": 26,
+    "description": "WeatherTrack provides accurate forecasts globally. Hourly and weekly views. Real-time radar maps. Alerts for rain and storms. Widgets display current weather. Offline mode stores last data. Customize themes and locations. Track air quality. Sunrise and sunset timings included. Regular updates improve accuracy.",
+    "size": 58,
+    "reviews": 60,
+    "ratingAvg": 4.5,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/chZj1cGK/077beaf12bb2d5064d40d8746d920449.jpg",
+    "title": "RecipeMaster",
+    "companyName": "FoodieTech Bank",
+    "id": 27,
+    "description": "RecipeMaster offers diverse recipes worldwide. Step-by-step guides with images. Video tutorials improve cooking skills. Save favorites in collections. Meal planner organizes menus. Nutritional info provided. Share recipes with friends. Offline access available. Ingredient substitutes suggested. Updates add new recipes frequently.",
+    "size": 100,
+    "reviews": 52,
+    "ratingAvg": 4.6,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d08qPWRb/7a9930dffaa035dbb85a97afb5eb42b8.jpg",
+    "title": "BudgetWise",
+    "companyName": "MoneySavvy",
+    "id": 28,
+    "description": "BudgetWise tracks expenses and income efficiently. Set savings goals and alerts. Categorize spending for insights. Visual charts track progress. Offline mode stores data. Secure password protection included. Generate reports quickly. Analyze trends with analytics. Notifications remind important payments. Regular updates improve features and usability.",
+    "size": 85,
+    "reviews": 60,
+    "ratingAvg": 4.5,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 900 }
+    ]
+  }
+]

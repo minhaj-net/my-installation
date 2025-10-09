@@ -29,23 +29,23 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
+            <li className="font-medium">
               <NavLink>Home</NavLink>
             </li>
-            <li>
+            <li className="font-medium">
               <NavLink to="/apps">Apps</NavLink>
             </li>
-            <li>
+            <li className="font-medium">
               <NavLink>Installation</NavLink>
             </li>
           </ul>
         </div>
-        <div className="flex gap-2 justify-center items-center">
-          <img className="w-[40px] h-[40px]" src={logoImg} alt="" />
-          <Link to="/">
+        <Link to="/">
+          <div className="flex gap-2 justify-center items-center">
+            <img className="w-[40px] h-[40px]" src={logoImg} alt="" />
             <h3 className="text-xl">HERO.IO</h3>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -56,7 +56,7 @@ const Navbar = () => {
             <NavLink to="/apps">Apps</NavLink>
           </li>
           <li>
-            <NavLink to="/installation">Installation</NavLink>
+            <NavLink to="installation">Installation</NavLink>
           </li>
         </ul>
       </div>

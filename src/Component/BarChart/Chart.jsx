@@ -13,7 +13,7 @@ const Chart = ({ card }) => {
   const ratings = card.ratings;
 
   return (
-    <div className="bg-base-100 border rounded-xl h-80 p-4">
+    <div className="bg-base-100 border-t border-b shadow-lg m-2 md:m-0 border-blue-500 rounded-xl h-80 p-4">
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={ratings} layout="vertical">
           <CartesianGrid strokeDasharray="3 3" />

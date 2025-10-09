@@ -20,6 +20,7 @@ const ErrorApps = () => {
           Go Back !
         </Link>
       </div>
+      <h1>This is my error</h1>
     </div>
   );
 };

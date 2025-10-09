@@ -16,9 +16,9 @@ const HomeCard = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className="grid grid-cols-1 justify-center items-center mx-auto text-center  md:grid-cols-4 ">
-        {featuredApp.map((app) => (
-          <Link to={`/card/${app.id}`}>
+      <div className="grid grid-cols-1 justify-center gap-4 items-center mx-auto text-center  md:grid-cols-4 ">
+        {featuredApp.map((app, index) => (
+          <Link key={index} to={`/card/${app.id}`}>
             <div className="card bg-base-100  shadow-sm">
               <figure className="">
                 <img
@@ -29,7 +29,7 @@ const HomeCard = () => {
               </figure>
               <div className="card-body">
                 <p className="text-[#001931] font-medium">
-                  {app.companyName} : {app.title}
+                  {app.title} : {app.companyName}
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="btn border-none  !rounde-xl">
@@ -51,7 +51,7 @@ const HomeCard = () => {
           to="/apps"
           className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-white  hover:scale-105 transition duration-300 px-12 py-3 rounded-md shadow-md hover:shadow-lg "
         >
-          Seel all
+          See all
         </Link>
       </div>
     </div>

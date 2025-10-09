@@ -6,6 +6,7 @@ import Apps from "../Pages/Apps/Apps";
 import CardDetails from "../Component/CardDetails/CardDetails";
 import Installation from "../Pages/Installation/Installation";
 import Error from "../Pages/ErrorPages/ErrorPages";
+import ErrorApps from "../Component/ErrorApps/ErrorApps";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,15 +17,22 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "/apps",
+        path: "apps/*",
         Component: Apps,
+        children: [
+          {
+            path: "*",
+            Component: ErrorApps,
+          },
+        ],
+        // errorElement: <ErrorApps></ErrorApps>,
       },
       {
-        path: "/card/:id",
+        path: "card/:id",
         Component: CardDetails,
       },
       {
-        path: "/installation",
+        path: "installation",
         Component: Installation,
       },
       {

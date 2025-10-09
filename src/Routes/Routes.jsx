@@ -5,7 +5,7 @@ import Home from "../Pages/Home/Home";
 import Apps from "../Pages/Apps/Apps";
 import CardDetails from "../Component/CardDetails/CardDetails";
 import Installation from "../Pages/Installation/Installation";
-import Error from "../Pages/Error/Error";
+import Error from "../Pages/ErrorPages/ErrorPages";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/installation",
         Component: Installation,
+      },
+      {
+        path: "*",
+        Component: Error,
       },
     ],
   },

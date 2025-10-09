@@ -2,15 +2,10 @@ import React from "react";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
 
-const InstallationCard = ({ app }) => {
+const InstallationCard = ({ app, handleRemove }) => {
   const { image, title, companyName, ratingAvg, downloads, size, id } = app;
   console.log(app);
 
-  const handleRemove = (id) => {
-    const existingList = JSON.parse(localStorage.getItem("appList"));
-    const ubdateList = existingList.filter((p) => p.id !== id);
-    localStorage.setItem("appList", JSON.stringify(ubdateList));
-  };
   return (
     <div className="mt-8 flex justify-between rounded-xl items-center  space-y-3 border-gray-500 p-3 bg-white shadow-lg">
       <div className="flex gap-8  justify-start items-center">

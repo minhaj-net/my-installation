@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import useApp from "../../Hooks/useCard";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
-import { Link } from "react-router";
+import { Link, Outlet } from "react-router";
 
 const Apps = () => {
   const [search, setSearch] = useState("");
@@ -14,8 +14,6 @@ const Apps = () => {
         searchCard.companyName.toLocaleLowerCase().includes(term)
       )
     : cardData;
-
-  console.log(searchCard);
 
   return (
     <div>

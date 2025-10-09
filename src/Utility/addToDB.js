@@ -13,7 +13,11 @@ export const getStoredData = () => {
 export const addToStoredDB = (id) => {
   const storedAppData = getStoredData();
   if (storedAppData.includes(id)) {
-    toast("This data is exist ");
+    if (storedAppData) {
+      toast("This app has been added in intallation page");
+    } else {
+      toast("This data is exist ");
+    }
   } else {
     storedAppData.push(id);
     const data = JSON.stringify(storedAppData);

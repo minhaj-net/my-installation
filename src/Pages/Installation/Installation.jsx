@@ -7,9 +7,8 @@ const Installation = () => {
   const data = useApp();
   const cardData = data.apps;
 
-  const [appList, setAppList] = useState([]);
   const [sort, setSort] = useState("none");
-  // console.log(cardData);
+  const [appList, setAppList] = useState([]);
   useEffect(() => {
     const storedAppData = getStoredData();
     const convartedStoredApp = storedAppData.map((id) => parseInt(id));
@@ -19,6 +18,14 @@ const Installation = () => {
     setAppList(myAppList);
   }, [cardData]);
 
+  const handleRemove = (id) => {
+    const existingList = JSON.parse(localStorage.getItem("appList"));
+    let ubdateList = existingList.filter((p) => p.id !== id);
+    localStorage.setItem("appList", JSON.stringify(ubdateList));
+
+    // localStorage.removeItem(existingList);
+    setAppList((prevList) => prevList.filter((app) => app.id !== id));
+  };
   const sortedIteam = (() => {
     if (sort === "size-asc") {
       return [...appList].sort((a, b) => a.size - b.size);
@@ -43,7 +50,7 @@ const Installation = () => {
         <div>
           <lebel className="from-control  w-full  max-w-xs">
             <select
-              className="select b border-violet-500 mr-32"
+              className="select  border-violet-500 pr-32"
               value={sort}
               onChange={(e) => setSort(e.target.value)}
             >
@@ -56,7 +63,11 @@ const Installation = () => {
       </div>
       <div>
         {sortedIteam.map((app) => (
-          <InstallationCard key={app.id} app={app}></InstallationCard>
+          <InstallationCard
+            key={app.id}
+            handleRemove={handleRemove}
+            app={app}
+          ></InstallationCard>
         ))}
       </div>
     </div>

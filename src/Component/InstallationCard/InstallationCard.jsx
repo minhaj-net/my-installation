@@ -4,7 +4,6 @@ import ratingIcon from "../../assets/icon-ratings.png";
 
 const InstallationCard = ({ app, handleRemove }) => {
   const { image, title, companyName, ratingAvg, downloads, size, id } = app;
-  console.log(app);
 
   return (
     <div className="mt-8 flex justify-between rounded-xl items-center  space-y-3 border-gray-500 p-3 bg-white shadow-lg">

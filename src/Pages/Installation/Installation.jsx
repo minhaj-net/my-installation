@@ -20,12 +20,11 @@ const Installation = () => {
 
   const handleRemove = (id) => {
     const existingList = JSON.parse(localStorage.getItem("appList"));
-    let ubdateList = existingList.filter((p) => p.id !== id);
-    localStorage.setItem("appList", JSON.stringify(ubdateList));
-
-    // localStorage.removeItem(existingList);
-    setAppList((prevList) => prevList.filter((app) => app.id !== id));
+    const updatedList = existingList.filter((p) => Number(p.id) !== Number(id));
+    setSort(updatedList);
+    localStorage.setItem("appList", JSON.stringify(updatedList));
   };
+
   const sortedIteam = (() => {
     if (sort === "size-asc") {
       return [...appList].sort((a, b) => a.size - b.size);

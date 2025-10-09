@@ -14,9 +14,7 @@ export const addToStoredDB = (id) => {
   const storedAppData = getStoredData();
   if (storedAppData.includes(id)) {
     if (storedAppData) {
-      toast("This app has been added in intallation page");
-    } else {
-      toast("This data is exist ");
+      toast("This iteam has been added ");
     }
   } else {
     storedAppData.push(id);

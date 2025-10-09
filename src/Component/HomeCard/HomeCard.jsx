@@ -46,6 +46,14 @@ const HomeCard = () => {
           </Link>
         ))}
       </div>
+      <div className="text-center mt-4">
+        <Link
+          to="/apps"
+          className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-white  hover:scale-105 transition duration-300 px-12 py-3 rounded-md shadow-md hover:shadow-lg "
+        >
+          Seel all
+        </Link>
+      </div>
     </div>
   );
 };

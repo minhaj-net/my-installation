@@ -7,43 +7,34 @@ import likesIcon from "../../assets/icon-review.png";
 import { Link, useParams } from "react-router";
 import useApp from "../../Hooks/useCard";
 import { addToStoredDB } from "../../Utility/addToDB";
-import {
-  Bar,
-  BarChart,
-  CartesianGrid,
-  Legend,
-  Rectangle,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
+
+import Chart from "../BarChart/Chart";
 
 const CardDetails = () => {
   const { id } = useParams();
   const data = useApp();
   const [Install, setinstall] = useState();
   const cardData = data.apps;
-  console.log(cardData.ratings);
   const convertedId = parseInt(id);
   const card = cardData.find((c) => c.id == convertedId) || {};
   const {
     image,
     title,
     companyName,
-    ratings,
+
     reviews,
     ratingAvg,
     downloads,
+    description,
     size,
   } = card;
-  console.log(ratings);
+
   const handleAppInstall = (id) => {
+    if (Install) {
+      toast("Data already exits");
+    }
     setinstall(id);
     addToStoredDB(id);
-    if (Install) {
-      toast("This data is exist ");
-    }
   };
 
   return (
@@ -91,28 +82,18 @@ const CardDetails = () => {
       <div>
         {/* <BarChart ratings={ratings}></BarChart> */}
 
-        <div className=" bg-base-100 border rounded-xl  h-80">
-          <ResponsiveContainer width="100%" height="100%">
-            <BarChart width={500} height={300} data={cardData}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="count" />
-              <YAxis />
-              <Tooltip />
-              <Legend />
-
-              <Bar dataKey="rating " fill="#82ca9d" />
-              <Bar
-                dataKey="pv"
-                fill="#8884d8"
-                activeBar={<Rectangle fill="pink" stroke="blue" />}
-              />
-              <Bar
-                dataKey="uv"
-                fill="#82ca9d"
-                activeBar={<Rectangle fill="gold" stroke="purple" />}
-              />
-            </BarChart>
-          </ResponsiveContainer>
+        <div>
+          <Chart card={card}></Chart>
+        </div>
+        <div className="space-y-3 mt-8">
+          <h1 className="text-[##001931] font-bold text-2xl">Description</h1>
+          <p>{description}</p>
+          <p>{description}</p>
+          <br />
+          <p>{description}</p>
+          <p>{description}</p>
+          <br />
+          <p>{description}</p>
         </div>
       </div>
     </div>

@@ -19,14 +19,14 @@ const Root = () => {
     return <div>This iteam will not Fount</div>;
   }
   return (
-    <div className=" w-11/12 mx-auto bg-[#62738221]">
+    <div className="md:w-11/12 mx-auto bg-[#62738221]">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>
       <ToastContainer
-        className="toast-container-center" // কাস্টম ক্লাস
-        toastClassName="toast-center" // প্রতিটা টোস্টের ক্লাস
-        position="top-right" // এখানে কোনটা দিলেও আমরা CSS দিয়ে স্থাপন করব
+        className="toast-container-center"
+        toastClassName="toast-center"
+        position="top-right"
         closeOnClick
         draggable={false}
       />

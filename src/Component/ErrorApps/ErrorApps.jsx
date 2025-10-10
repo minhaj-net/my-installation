@@ -21,12 +21,6 @@ const ErrorApps = () => {
           >
             Go Back !
           </Link>
-          <Link
-            className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white  hover:scale-105 transition duration-300 px-6 py-3 rounded-md shadow-md hover:shadow-lg"
-            to="/apps"
-          >
-            Browse Apps
-          </Link>
         </div>
       </div>
     </div>

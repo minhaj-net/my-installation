@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router";
 import Root from "../Pages/Root/Root";
 import Home from "../Pages/Home/Home";
 import Apps from "../Pages/Apps/Apps";
@@ -17,12 +17,12 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "apps/",
+        path: "/apps",
         errorElement: <ErrorApps></ErrorApps>,
         Component: Apps,
         children: [
           {
-            path: "*", // ✅ apps route এর ভিতরের ভুল path ধরবে
+            path: "*",
             element: <ErrorApps />,
           },
         ],
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
         Component: CardDetails,
       },
       {
-        path: "installation",
+        path: "/installation",
         Component: Installation,
       },
       {

@@ -19,7 +19,7 @@ const Root = () => {
     return <div>This iteam will not Fount</div>;
   }
   return (
-    <div className="max-w-[1280px] mx-auto bg-[#62738221]">
+    <div className=" w-11/12 mx-auto bg-[#62738221]">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>

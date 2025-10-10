@@ -47,7 +47,6 @@ const Installation = () => {
   if (loading) {
     return (
       <div className="full-page-center">
-        {/* <CustomLoadingSpinner /> */}
         <LoadingSpinner></LoadingSpinner>
       </div>
     );

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import useApp from "../../Hooks/useCard";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
-import { Link, Outlet } from "react-router";
+import { Link } from "react-router";
 import LoadingSpinner from "../../Component/LoadingSpiner/LoadingSpiner";
 
 const Apps = () => {

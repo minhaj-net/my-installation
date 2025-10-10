@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
@@ -17,7 +17,7 @@ const CardDetails = () => {
   const [Install, setinstall] = useState();
 
   useEffect(() => {
-    const existingList = JSON.parse(localStorage.getItem("installation"));
+    const existingList = JSON.parse(localStorage.getItem("installation")) || [];
     setinstall(existingList.includes(String(id)));
   }, [id]);
 
@@ -49,7 +49,6 @@ const CardDetails = () => {
   if (loading) {
     return (
       <div className="full-page-center">
-        {/* <CustomLoadingSpinner /> */}
         <LoadingSpinner></LoadingSpinner>
       </div>
     );

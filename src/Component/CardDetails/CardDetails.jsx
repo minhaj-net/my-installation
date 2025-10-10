@@ -71,7 +71,7 @@ const CardDetails = () => {
           <p className="text-gray-500 font-bold text-2xl">
             Developed by{" "}
             <span className="bg-gradient-to-b from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
-              productive.io
+              {companyName}
             </span>
           </p>
           <hr className="mt-2 text-gray-300" />

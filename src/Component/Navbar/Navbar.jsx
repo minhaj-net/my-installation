@@ -4,6 +4,10 @@ import logoImg from "../../assets/logo.png";
 import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
+  const baseClasses =
+    "py-2 px-4 transition duration-300 ease-in-out text-lg text-gray-700 hover:text-blue-500 border-b-2 border-transparent";
+
+  const activeClasses = "text-blue-600 font-bold border-b-2  border-blue-600";
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
@@ -30,13 +34,34 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li className="font-medium">
-              <NavLink>Home</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  `${baseClasses} ${isActive ? activeClasses : ""}`
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
             </li>
             <li className="font-medium">
-              <NavLink to="/apps">Apps</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  `${baseClasses} ${isActive ? activeClasses : ""}`
+                }
+                to="/apps"
+              >
+                Apps
+              </NavLink>
             </li>
             <li className="font-medium">
-              <NavLink>Installation</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  `${baseClasses} ${isActive ? activeClasses : ""}`
+                }
+                to="/installation"
+              >
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -50,13 +75,34 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                `${baseClasses} ${isActive ? activeClasses : ""}`
+              }
+              to="/"
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/apps">Apps</NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                `${baseClasses} ${isActive ? activeClasses : ""}`
+              }
+              to="/apps"
+            >
+              Apps
+            </NavLink>
           </li>
           <li>
-            <NavLink to="installation">Installation</NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                `${baseClasses} ${isActive ? activeClasses : ""}`
+              }
+              to="/installation"
+            >
+              Installation
+            </NavLink>
           </li>
         </ul>
       </div>

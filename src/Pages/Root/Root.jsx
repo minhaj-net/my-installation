@@ -11,7 +11,6 @@ const Root = () => {
   if (loading) {
     return (
       <div className="full-page-center">
-        {/* <CustomLoadingSpinner /> */}
         <LoadingSpinner></LoadingSpinner>
       </div>
     );

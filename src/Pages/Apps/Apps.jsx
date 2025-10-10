@@ -82,7 +82,7 @@ const Apps = () => {
         <div className="grid grid-cols-1 justify-center gap-4 items-center md:grid-cols-4">
           {filteredCards.map((app) => (
             <Link key={app.id} to={`/card/${app.id}`}>
-              <div className="card bg-base-100 mb-4 shadow-xl">
+              <div className="card bg-base-100 mb-4 hover:shadow-2xl transition duration-300 transform hover:scale-[1.03] overflow-hidden">
                 <figure>
                   <img
                     className="w-[300px] h-[326px] rounded-xl object-cover"

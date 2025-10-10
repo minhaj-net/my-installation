@@ -1,13 +1,13 @@
 import React from "react";
 import errorPages from "../../assets/error-404.png";
 import { Link } from "react-router";
-const Error = () => {
+const ErrorPages = () => {
   return (
     <div className=" flex justify-center items-center mt-4">
       <div className="text-center  space-y-3">
         <img src={errorPages} alt="" />
         <h2 className="text-[##001931] font-semibold text-5xl">
-          Oops, page not found!
+          Oops, Page not found!
         </h2>
         <p className="text-[#627382] text-[20px]">
           The page you are looking for is not available.
@@ -23,4 +23,4 @@ const Error = () => {
   );
 };
 
-export default Error;
+export default ErrorPages;

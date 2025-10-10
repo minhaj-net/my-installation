@@ -30,7 +30,7 @@ const Installation = () => {
     setAppList(updatedAppList);
   };
   const handleToast = () => {
-    toast(`${appList.title} unInstall Successfully`);
+    toast(`App Uninstall Successfully`);
   };
 
   const sortedIteam = (() => {

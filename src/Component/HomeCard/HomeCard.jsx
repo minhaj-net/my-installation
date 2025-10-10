@@ -19,8 +19,8 @@ const HomeCard = () => {
       <div className="grid grid-cols-1 justify-center gap-4 items-center mx-auto text-center  md:grid-cols-4 ">
         {featuredApp.map((app, index) => (
           <Link key={index} to={`/card/${app.id}`}>
-            <div className="card bg-base-100  shadow-sm">
-              <figure className="">
+            <div className="card bg-base-100 hover:shadow-2xl transition duration-300 transform hover:scale-[1.03] overflow-hidden">
+              <figure>
                 <img
                   className="w-[300px] h-[326px] object-cover rounded-xl"
                   src={app.image}
@@ -51,7 +51,7 @@ const HomeCard = () => {
           to="/apps"
           className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-white  hover:scale-105 transition duration-300 px-12 py-3 rounded-md shadow-md hover:shadow-lg "
         >
-          See all
+          Show all
         </Link>
       </div>
     </div>

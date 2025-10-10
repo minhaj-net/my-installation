@@ -17,15 +17,8 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: "apps/*",
+        path: "apps",
         Component: Apps,
-        children: [
-          {
-            path: "*",
-            Component: ErrorApps,
-          },
-        ],
-        // errorElement: <ErrorApps></ErrorApps>,
       },
       {
         path: "card/:id",

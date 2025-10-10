@@ -55,18 +55,16 @@ const Banner = () => {
             </p>
           </div>
           <div className="space-y-3 flex flex-col justify-center items-center">
-            <p className="text-[12px] text-gray-400">Total Downloads</p>
-            <h3 className="font-bold text-5xl text-white">29.6M</h3>
+            <p className="text-[12px] text-gray-400">Total Reviews</p>
+            <h3 className="font-bold text-5xl text-white">906K</h3>
             <p className="text-[12px] text-gray-400">
-              21% more than last month
+              46% more than last month
             </p>
           </div>
           <div className="space-y-3 flex flex-col justify-center items-center">
-            <p className="text-[12px] text-gray-400">Total Downloads</p>
-            <h3 className="font-bold text-5xl text-white">29.6M</h3>
-            <p className="text-[12px] text-gray-400">
-              21% more than last month
-            </p>
+            <p className="text-[12px] text-gray-400">Active Apps</p>
+            <h3 className="font-bold text-5xl text-white">132+</h3>
+            <p className="text-[12px] text-gray-400">31 more will Launch</p>
           </div>
         </div>
       </div>

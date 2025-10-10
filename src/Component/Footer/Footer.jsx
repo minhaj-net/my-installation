@@ -64,9 +64,9 @@ const Footer = () => {
             </a>
             <span>
               <span>
-                <Link href="https://www.apple.com/app-store/" target="_blank">
+                <a href="https://www.apple.com/app-store/" target="_blank">
                   <FaAppStoreIos className="w-[24px] h-[24px]" />
-                </Link>
+                </a>
               </span>
             </span>
           </div>

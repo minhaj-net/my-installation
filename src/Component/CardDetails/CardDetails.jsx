@@ -113,8 +113,6 @@ const CardDetails = () => {
           <br />
           <p>{description}</p>
           <p>{description}</p>
-          <br />
-          <p>{description}</p>
         </div>
       </div>
     </div>

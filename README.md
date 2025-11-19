@@ -6,7 +6,7 @@ This project is built with React, focused on performance, clean UI, and user-fri
 
 ## Screenshots
 
-[App Screenshot](https://i.ibb.co.com/4Rb7HV5b/Captsure.png)
+![App Screenshot](https://i.ibb.co.com/4Rb7HV5b/Captsure.png)
 
 
 ## Demo

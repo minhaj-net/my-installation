@@ -1,12 +1,12 @@
 
-📱 APK Manager Website
+# 📱 APK Manager Website
 
 A modern and responsive web application to explore, manage, and view app details — including downloads, ratings, and reviews.
 This project is built with React, focused on performance, clean UI, and user-friendly interactions.
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co.com/4Rb7HV5b/Captsure.png)
+[App Screenshot](https://i.ibb.co.com/4Rb7HV5b/Captsure.png)
 
 
 ## Demo
@@ -16,7 +16,7 @@ https://apk-manager.netlify.app/
 
 ## Authors
 
-- [@octokatherine](https://github.com/minhaj-net)
+- [@minhaj-net](https://github.com/minhaj-net)
 
 
 ## Features
